@@ -1,0 +1,15 @@
+:root{
+   --cor0: #2FDE89;
+   --cor1: #109153;
+   --cor2: #4FFFAA;
+   --fonte0:'Alexandria', sans-serif;
+   --fonte1: Arial, Helvetica, sans-serif;
+}
+
+Exemplo:
+
+   body{
+      font-family: var(--fonte0);
+      color: var(--cor0);
+      background-color: var(--cor1)
+   }
